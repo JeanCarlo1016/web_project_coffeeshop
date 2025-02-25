@@ -1,4 +1,15 @@
-.page{
+span {
+  display: block;
+}
+
+h1,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
   min-width: 1100px;
   max-width: 1600px;
   font-family: "Inter", Arial, sans-serif;
@@ -6,4 +17,111 @@
   font-size: 16px;
   line-height: 20px;
   margin: auto;
+  background-color: #fff;
+  color: #000;
+}
+
+.header {
+  background-image: url("/images/background_header.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  position: relative;
+  padding: 0 80px 40px 80px;
+}
+
+.nav__logo {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  height: 39px;
+  width: 105px;
+}
+
+.nav {
+  display: flex;
+  padding-top: 30px;
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: auto;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.header__title {
+  max-width: 709px;
+  font-size: 29px;
+  margin-top: 183px;
+  padding: 25px 0;
+  font-weight: 500;
+  font-size: 58px;
+}
+
+.header__span-accent {
+  font-family: "Noto Serif", 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2F80ED;
+  padding-bottom: 25px;
+  font-weight: normal;
+}
+
+.header__description {
+  font-family: "Noto Serif", 'Times New Roman', serif;
+  margin-top: 28px;
+  max-width: 683px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  position: absolute;
+  width: 646px;
+  height: 568px;
+  top: 124px;
+  right: 5px;
+}
+
+.header__footer {
+  display: flex;
+  color: #838383;
+  margin-top: auto;
+  bottom: 40px;
+  line-height: 20px;
+}
+
+.header__footer_schedule {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__footer_address {
+  position: absolute;
+  right: 80px;
+  bottom: 40px;
+}
+
+.recipes {
+  background-color: #0a2750;
+  background-image: url(/images/background_recipes.svg);
+  background-size: cover;
 }
