@@ -112,12 +112,13 @@ iframe {
   margin-top: auto;
   bottom: 40px;
   line-height: 20px;
-}
-
-.header__footer_schedule {
-  display: flex;
   flex-direction: column;
 }
+
+/* .header__footer_schedule {
+  display: flex;
+  flex-direction: column;
+} */
 
 .header__footer_address {
   position: absolute;
