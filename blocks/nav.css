@@ -1,0 +1,29 @@
+.nav__logo {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  height: 39px;
+  width: 105px;
+}
+
+.nav {
+  display: flex;
+  padding-top: 30px;
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: auto;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: normal;
+}

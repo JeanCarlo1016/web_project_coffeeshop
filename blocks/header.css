@@ -1,0 +1,64 @@
+.header {
+  background-image: url("/images/background_header.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  position: relative;
+  padding: 0 80px 40px 80px;
+}
+
+.header__title {
+  max-width: 709px;
+  font-size: 29px;
+  margin-top: 183px;
+  padding: 25px 0;
+  font-weight: 500;
+  font-size: 58px;
+}
+
+.header__span-accent {
+  font-family: "Noto Serif", 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2F80ED;
+  padding-bottom: 25px;
+  font-weight: normal;
+}
+
+.header__description {
+  font-family: "Noto Serif", 'Times New Roman', serif;
+  margin-top: 28px;
+  max-width: 683px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  position: absolute;
+  width: 646px;
+  height: 568px;
+  top: 124px;
+  right: 5px;
+}
+
+.header__footer {
+  display: flex;
+  color: #838383;
+  margin-top: auto;
+  bottom: 40px;
+  line-height: 20px;
+  flex-direction: column;
+}
+
+.header__paragraph_address {
+  position: absolute;
+  right: 80px;
+  bottom: 40px;
+}
